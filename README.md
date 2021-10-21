@@ -15,7 +15,7 @@
 To install, download the repository files and run ```npm i``` in the terminal from the root folder to install all dependencies (Express in this case).
 
 ## Usage
-To use locally, comment out line 6 and comment back in line 7 (the const PORT lines). Then run ```node server.js``` in the terminal. The local address will be presented by express in the terminal. Access that link to launch the application in your browser. To use the version hosted on Heroku, simply go to [https://morning-beyond-36687.herokuapp.com/notes] in your browser.
+To use locally, comment out line 6 and comment back in line 7 (the const PORT lines). Then run ```node server.js``` in the terminal. The local address will be presented by express in the terminal. Access that link to launch the application in your browser. To use the version hosted on Heroku, simply go to https://morning-beyond-36687.herokuapp.com/notes in your browser.
 
 
 ## License
