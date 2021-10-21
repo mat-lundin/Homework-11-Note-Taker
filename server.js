@@ -1,7 +1,7 @@
 // const { readFromFile, writeToFile, readAndAppend } = require('./helpers/fsUtils');
 const express = require('express');
-// const index = require('./routes/index.js');
-// const notes = require('./routes/notes')
+const htmlRouter = require('./routes/htmlroutes.js');
+const apiRouter = require('./routes/apiroutes')
 
 // const PORT = process.env.port || 3001;
 const PORT = 3001;
@@ -15,7 +15,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
 
-app.use('/', index)
+app.use(htmlRouter);
+app.use(apiRouter);
 // app.use('/notes', notes);
 
 
